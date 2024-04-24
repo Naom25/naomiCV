@@ -32,6 +32,33 @@ h1, h2 {
     color: #333;
 }
 
+#contacto {
+    background: white;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+#contact-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+#contact-form input, #contact-form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box; /* Hace que el padding no afecte el ancho total */
+}
+
+#contact-form button {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+
 footer p {
     margin: 0;
 }
